@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    background-image: url(./imgs/back-kylo@2x.png);
+    background-size: 100% 41vw;
+    background-repeat: no-repeat;
+}
+.background-star{
+    background-image: url(./imgs/star@2x.png);
+    background-size: 25%;
+    background-position: 22.5% 49.8%;
+    background-repeat:no-repeat;
+}
+.background-wars{
+    background-image: url(./imgs/wars@2x.png);
+    background-size: 25%;
+    background-position: 84.5% 49.8%;
+    background-repeat:no-repeat;
+    position: relative;
+}
+.container-kylo{
+    width:100%;
+}
+.kylo-top{
+    width:68%;
+    position:relative;
+    left:10.4%;
+    z-index: 1;
+}
+.stormred{
+    width:22%;
+    position: absolute;
+    top:72%;
+    left: 12%;
+    z-index: 2;
+}
+.make{
+    width:9%;
+    font-size: 1.5vw;
+    position: absolute;
+    left:77%;
+    top:63%;
+}
+.legion{
+    font-weight: 900;
+}
+.underline{
+    width: 100%;
+    height: 0.2vw;
+    margin-top: 11%;
+    background-color: black;
+}
+.one{
+    font-size: 1.5vw;
+}
+.number{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-top:10% ;
+    font-size: 1vw;
+}
+.button-one{
+    width: 10%;
+    height:1vw;
+    font-size: 1vw;
+    margin-left: 3%;
+    font-weight: 900;
+    background-color: rgb(175, 174, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    margin-bottom: 3%;
+}
+.start-game{
+    width:19%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    color: whitesmoke;
+    position: absolute;
+    left: 13.5%;
+    top:80%;
+    z-index: 3;
+}
+.start-game h1{
+    font-size: 2.5vw;
+    font-weight:600;
+    text-align: center;
+    margin-bottom: 25%;
+}
+.start-game p{
+    opacity: 0.7;
+    text-align: left;
+    margin-bottom: 23%;
+}
+.a-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-down{
+    width: 45%;
+    font-size: 1.1vw;
+    padding:2.5%;
+    border-radius:0.3vw;
+    text-align: center;
+    border: solid whitesmoke 0.2vw;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.container-robot{
+    width: 100%;
+    position: absolute;
+    top:78%;
+}
+.robot{
+    width: 45.5%;
+}
+.about{
+    width: 50%;
+    font-size: 1.1vw;
+    text-align: right;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top:111%;
+    left: 48%;
+}
+.about h2{
+     font-weight:600;
+}
+.container-battlefront{
+    width:100%;
+}
+.underline-two{
+    width: 40%;
+    height: 0.2vw;
+    margin: 3% 0% 2% 60%;
+    background-color:black;
+}
+.battlefront{
+    width: 100%;
+    margin-left: 2.5%;
+}
+
+.container-estrutura{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    position: relative;
+}
+.underline-three{
+    width: 87%;
+    height: 0.3vw;
+    background-color: grey;
+    position: absolute;
+    top: 61%;
+    left: 12%;
+}
+.estrutura{
+    width: 100%;
+    position: absolute;
+    top:66%;
+    background-color: blueviolet;
+}
+.lord{
+    width: 45%;
+    position: absolute;
+    left: 13%;
+    z-index: 4;
+}
+.container-text{
+    width: 30%;
+    margin-top: 4%;
+    font-size: 2vw;
+    position: absolute;
+    left: 40%;
+    text-align: right;
+}
+.container-text p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+.game{
+    font-weight: bold;
+}
+.container-text ul{
+    width: 100%;
+    font-size: 1.7vw;
+    list-style: none;
+    position: absolute;
+}
+.container-text li{
+    margin-top: 5%;
+    padding: 1%;
+}
+.rey{
+    width:23%;
+    margin-top: 2%;
+    position: absolute;
+    left: 70%;
+    z-index: 2;
+}
+.atributos{
+    width:100%;
+    background-color:rgba(49, 47, 47, 0.993);
+    margin-top: 28%;
+    padding-top: 3%;
+    color: whitesmoke;
+    position:relative;
+}
+.atributos h1{
+    margin: 4% 13%;
+    font-size: 2.2vw;
+}
+.container-atributos{
+    width: 100%;
+}
+.box-atributos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-galeria{
+    width: 100%;
+    display: flex;
+}
+.container-imgs-atributos{
+    width: 85%;
+    display: flex;
+}
+.imgs-atributos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}   
+.text-one-img{
+    width: 42.5%;
+    height:25.8vw;
+    padding: 2%;
+    font-size: 1.5vw;
+    background-color: rgba(31, 155, 3, 0.288);
+    position: absolute;
+    left:7.5%;
+    opacity: 0;
+}
+.text-one-img p{
+    margin: 7% 0% 12% 0%;
+}
+.button-hover-big{
+    width:40%;
+    padding: 2%;
+    font-size: 1.5vw;
+    border: solid whitesmoke 0.2vw;
+    background-color: transparent;
+    color:whitesmoke;
+}
+
+.text-two-img{
+    width:21.3%;
+    height: 12.9vw;
+    padding: 1%;
+    font-size: 1vw;
+    position: absolute;
+    background-color:rgba(255, 0, 0, 0.26);
+    left:49.9%;
+    opacity: 0;
+}
+.text-two-img p{
+    margin: 5% 0% 10% 0%;
+}
+.text-three-img{
+    width:21.3%;
+    height: 12.9vw;
+    padding: 1%;
+    font-size: 1vw;
+    left:49.9%;
+    top:26.7vw;
+    position: absolute;
+    background-color:rgba(34, 34, 153, 0.411);
+    opacity: 0;
+
+}
+.text-three-img p{
+    margin: 5% 0% 3% 0%;
+}
+.text-four-img{
+    width:21.3%;
+    height: 12.9vw;
+    padding: 1%;
+    font-size: 1vw;
+    background-color: rgba(160, 32, 160, 0.397);
+    position: absolute;
+    left:71.2%;
+    opacity: 0;
+}
+.text-five-img{
+    width:21.25%;
+    height: 12.9vw;
+    padding: 1%;
+    font-weight: 400;
+    font-size: 1vw;
+    background-color: rgba(189, 189, 0, 0.493);
+    position: absolute;
+    top:26.7vw;
+    left:71.2%;
+    opacity: 0;
+}
+.text-five-img p{
+    width: 100%;
+    margin: 5% 0% 10% 0%;
+
+}
+.button-hover{
+    width:40%;
+    padding: 2%;
+    font-size: 1vw;
+    border: solid whitesmoke 0.2vw;
+    background-color: transparent;
+    color:whitesmoke;
+}
+.imagem-combate{
+     width: 50%;
+}
+
+.security-stormtrooper{
+    width: 100%;
+}
+
+.naves-em-combate{
+    width: 100%;
+}
+
+.robos-lutando{
+    width: 100%;
+}
+
+.stormtrooper{
+    width: 100%;
+}
+.box-hierarquia{
+    width: 100%;
+}
+.hierarquia-stormtrooper{
+    width: 100%;
+    margin:5% 0% 8% 0%;
+    display: flex;
+    justify-content: center;
+}
+.img-hierarquia{
+    width: 85%;
+}
+
+.text-hierarquia{
+    width: 93.5%;
+    font-size: 1vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.text-hierarquia p{
+    width: 45%;
+    text-align: right;
+    margin-right: 1%;
+    margin-bottom: 7%;
+}
+.box-hierarquia h2{
+    text-align: center;
+    font-size: 2.2vw;
+    padding-bottom: 5%;
+
+}
+.box-capa{
+    width: 30%;
+    position: absolute;
+    top:82%;
+    left: 5%;
+}
+.capa-img{
+    width: 100%;
+}
+.buttons{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+.box-btn{
+    width: 11%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-right: 7%;
+}
+
+.numeros{
+    width: 100%;
+    font-size: 2.2vw;
+    margin-bottom: 10%;
+    font-weight: lighter;
+}
+.btn{
+    width: 100%;
+    padding: 8% 10%;
+    font-size: 1.2vw;
+    margin-bottom: 12%;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+}
+.btn-text-one{
+    width: 85%;
+    font-size: 1vw;
+    margin-bottom: 7%;
+}
+.btn-text-two{
+    width: 80%;
+    font-size: 1vw;
+    margin-bottom: 7%;
+}
+.btn-text-three{
+    width: 80%;
+    font-size: 1vw;
+    margin-bottom: 7%;
+}
+.underline-four{
+    width: 40%;
+    height: 0.2vw;
+    background-color: black;
+}
+.box-app{
+    width:65%;
+    padding: 6% 10% ;
+    margin-top: 13%;
+    background-color: rgb(243, 101, 101);
+    color: whitesmoke;
+}
+.box-app h1{
+    font-size: 2.2vw;
+    margin-bottom: 7%;
+}
+.box-app p{
+    width: 70%;
+    font-size: 1.1vw;
+}
+.app{
+    width: 70%;
+    margin: 5% 0%;
+    display: flex;
+    justify-content:space-between;
+}
+.play-store{
+    width: 85%;
+}
+.apple{
+    width: 85%;
+}
+.underline-five{
+    width: 70%;
+    margin: 6% 0% 6% 0%;
+    height: 0.2vw;
+    background-color: rgb(240, 65, 52);
+}
+.img-star-wars{
+    width: 30%;
+    margin-bottom: 5%;
+}
+.box-vader{
+    width: 42%;
+    position: absolute;
+    left: 55%;
+    top:266vw;
+}
+
+.img-vader{
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.a-one:hover{
+    color: rgba(223, 37, 37, 0.986);
+}
+.button-one:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.btn-down:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: rgb(219, 41, 41);
+    transform: scale(1.1);
+
+}
+li:hover{
+    color: whitesmoke;
+    background-color: rgb(248, 71, 71);
+    cursor: pointer;
+}
+.text-one-img:hover{
+    opacity:10.0;
+    cursor: pointer;
+}
+.text-two-img:hover{
+    opacity:10.0;
+    cursor: pointer;
+}
+.text-three-img:hover{
+    opacity:10.0;
+    cursor: pointer;
+}
+.text-four-img:hover{
+    opacity:10.0;
+    cursor: pointer;
+}
+.text-five-img:hover{
+    opacity:10.0;
+    cursor: pointer;
+}
+.button-hover-big:hover{
+    transform: scale(1.1);
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-hover:hover{
+    transform: scale(1.1);
+    font-weight: 600;
+    cursor: pointer;
+}
+.numeros:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(248, 66, 66);
+}
+.underline-four:hover{
+    cursor: pointer;
+    background-color: rgb(248, 66, 66);
+}
+.play-store:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.apple:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media(max-width:500px){
+    .stormred{
+        width:66%;
+        top:93%;
+        left: 29%;
+    }
+    .start-game{
+         width:60%;
+         font-size: 4vw;
+         top:112%;
+         left: 32%;
+        }
+        .start-game h1{
+            font-size: 7.5vw;
+            margin: 6%;
+           }
+           .start-game button{
+               width: 60%;
+               padding: 5%;
+               font-size: 3vw;
+           }
+           
+           .robot{
+            width: 78%;
+        }
+           .about{
+            width: 80%;
+            padding-top:45% ;
+            padding-right: 4%;
+            font-size: 3vw;
+            flex-direction: column;
+            top:150vw;
+            left: 20%;
+           }
+           .battlefront{
+            width: 83%;
+            position: absolute;
+            top:1vw;
+            left:8.5%;
+        }
+        .container-estrutura{
+            margin-top: 154%;
+        }
+        .underline-three{
+            top: 25vw;
+            left: 8.5vw;
+            height: 0.7vw;
+        }
+        .box-img{
+            width: 100%;
+            display: flex;
+        }
+        .container-galeria{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container-imgs-atributos{
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+        }
+        .imgs-atributos{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap:nowrap;
+        }   
+        .box-vader{
+            top:419vw;
+        }
+        .imagem-combate{
+            width: 100%;
+       }
+       .text-one-img{
+        width: 85%;
+        height:52vw;
+        padding: 3%;
+        font-size: 3vw;
+        left:7.5%;
+        opacity: 10;
+    }
+    
+    .button-hover-big{
+        width:50%;
+        padding: 2%;
+        font-size: 3vw;
+        border: solid whitesmoke 0.2vw;
+        background-color: transparent;
+        color:whitesmoke;
+    }
+    
+    .text-two-img{
+        width: 85%;
+        height:52vw;
+        padding: 3%;
+        font-size: 3vw;
+        left:7.5%;
+        top:65.6vw;
+        opacity: 10;
+    }
+    
+    .text-three-img{
+        width: 85%;
+        height:52vw;
+        padding: 3%;
+        font-size: 3vw;
+        left:7.5%;
+        opacity: 10;
+        top:117.6vw;
+    
+    }
+    
+    .text-four-img{
+        width: 85%;
+        height:52vw;
+        padding: 3%;
+        font-size: 3vw;
+        top:169.7vw;
+        left:7.5%;
+        opacity: 10;
+    }
+    .text-five-img{
+        width: 85%;
+        height:52vw;
+        padding: 3%;
+        font-size: 3vw;
+        left:7.5%;
+        top:221.7vw;
+        opacity: 10;
+    }
+    .text-five-img p{
+        margin: 10% 0% 20% 0%;
+    }
+    
+
+}
