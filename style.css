@@ -170,7 +170,6 @@ header{
     width: 100%;
     position: absolute;
     top:66%;
-    background-color: blueviolet;
 }
 .lord{
     width: 45%;
@@ -501,6 +500,8 @@ a{
 .button-one:hover{
     cursor: pointer;
     transform: scale(1.5);
+    transition: width . 5s;
+    
 }
 .btn-down:hover{
     cursor: pointer;
@@ -612,6 +613,42 @@ li:hover{
             left: 8.5vw;
             height: 0.7vw;
         }
+        .estrutura{
+            top:76%;
+        }
+        .lord{
+            width: 58%;
+            left: 2%;
+        }
+        .container-text{
+            width: 45%;
+            margin-top: 0%;
+            left: 25%;
+        }
+        .container-text p{
+            font-size: 4vw;
+        }
+        .game{
+            font-weight: bold;
+        }
+        .container-text ul{
+            font-size: 2vw;
+        }
+        .container-text li{
+            margin-top: 2%;
+        }
+        .rey{
+            width:29%;
+        }
+        .atributos{
+            margin-top: 38%;
+        }
+        .atributos h1{
+            display: flex;
+            justify-content: center;
+            margin-top: 15%;
+            font-size: 5vw;
+        }
         .box-img{
             width: 100%;
             display: flex;
@@ -632,9 +669,6 @@ li:hover{
             flex-direction: column;
             flex-wrap:nowrap;
         }   
-        .box-vader{
-            top:419vw;
-        }
         .imagem-combate{
             width: 100%;
        }
@@ -644,7 +678,7 @@ li:hover{
         padding: 3%;
         font-size: 3vw;
         left:7.5%;
-        opacity: 10;
+        opacity: 0;
     }
     
     .button-hover-big{
@@ -659,45 +693,190 @@ li:hover{
     .text-two-img{
         width: 85%;
         height:52vw;
-        padding: 3%;
+        padding: 4%;
         font-size: 3vw;
         left:7.5%;
-        top:65.6vw;
-        opacity: 10;
+        top:80.6vw;
+        opacity: 0;
+    }
+    .text-two-img p{
+        padding: 7% 0% 8% 0%;
     }
     
     .text-three-img{
         width: 85%;
         height:52vw;
-        padding: 3%;
+        padding: 4%;
         font-size: 3vw;
         left:7.5%;
-        opacity: 10;
-        top:117.6vw;
-    
+        opacity: 0;
+        top:132.6vw;
+    }
+    .text-three-img p{
+        padding: 4% 0% 8% 0%;
     }
     
     .text-four-img{
         width: 85%;
         height:52vw;
-        padding: 3%;
+        padding: 4%;
         font-size: 3vw;
-        top:169.7vw;
+        top:184.7vw;
         left:7.5%;
-        opacity: 10;
+        opacity: 0;
+    }
+    .text-four-img p{
+        padding: 7% 0% 13% 0%;
     }
     .text-five-img{
         width: 85%;
         height:52vw;
-        padding: 3%;
+        padding: 4%;
         font-size: 3vw;
         left:7.5%;
-        top:221.7vw;
-        opacity: 10;
+        top:236.8vw;
+        opacity: 0;
     }
     .text-five-img p{
         margin: 10% 0% 20% 0%;
     }
-    
+    .button-hover{
+        width:50%;
+        padding: 2%;
+        font-size: 3vw;
+        border: solid whitesmoke 0.2vw;
+        background-color: transparent;
+        color:whitesmoke;
+    }.img-hierarquia{
+        width: 100%;
+    }
+    .text-hierarquia{
+        font-size: 2vw;
+    }
+    .text-hierarquia p{
+        width: 50%;
+    }
+    .box-hierarquia h2{
+        font-size: 4vw;
+        text-align: right;
+        padding-right:13%;
+    }
 
+    .img-hierarquia{
+        width: 100%;
+    }
+    
+    .text-hierarquia{
+        font-size: 2vw;
+    }
+    .text-hierarquia p{
+        width: 50%;  
+    }
+    .box-hierarquia h2{
+        font-size: 3vw;
+    }
+    .box-capa{
+        width: 80%;
+        position: absolute;
+        top:95%;
+        left: 0%;
+    }
+    .capa-img{
+        width: 100%;
+        height: 150vw;
+        object-fit: cover;
+        object-position: 195%;
+    }
+    .buttons{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-btn{
+        width: 30%;
+        margin-left: 60%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        margin-top: 3%;
+    }
+    
+    .numeros{
+        width: 100%;
+        font-size: 5vw;
+        margin-bottom: 10%;
+        font-weight: lighter;
+    }
+    .btn{
+        width: 100%;
+        padding: 8% 10%;
+        font-size: 3vw;
+        margin-bottom: 12%;
+        border: none;
+        color: whitesmoke;
+        background-color: black;
+    }
+    .btn-text-one{
+        width: 85%;
+        font-size: 2.5vw;
+        margin-bottom: 7%;
+    }
+    .btn-text-two{
+        width: 80%;
+        font-size: 2.5vw;
+        margin-bottom: 7%;
+    }
+    .btn-text-three{
+        width: 80%;
+        font-size: 2.5vw;
+        margin-bottom: 7%;
+    }
+    .underline-four{
+        width: 45%;
+        height: 0.3vw;
+    }
+    .box-app{
+        width:100%;
+        padding: 6% 6% 50% 6%;
+        margin-top: 30%;
+        background-color: rgb(243, 101, 101);
+        color: whitesmoke;
+    }
+    .box-app h1{
+        text-align: center;
+        font-size: 8vw;
+        margin-bottom: 7%;
+    }
+    .box-app p{
+        width: 100%;
+        font-size: 4vw;
+    }
+    .app{
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content:center;
+    }
+    .play-store{
+        width: 98.5%;
+    }
+    .apple{
+        width: 98.5%;
+    }
+    .underline-five{
+        width: 100%;
+        margin: 6% 0% 6% 0%;
+        height: 1vw;
+        background-color: rgb(240, 65, 52);
+    }
+    .img-star-wars{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .box-vader{
+        width: 85%;
+        top:925vw;
+        left:8%
+    }
 }
